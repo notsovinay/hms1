@@ -1,0 +1,13 @@
+#take input
+a=float(input("Enter value of a:"))
+b=float(input("Enter value of b:"))
+c=float(input("Enter value of c:"))
+if a>b:
+    if a>c:
+        print("Largest Number is :{}".format(a))
+    else:
+        print("Largest Number is :{}".format(c))
+elif b>c:
+        print("Largest Number is :{}".format(b))
+else:
+        print("Largest Number is :{}".format(c))
